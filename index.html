@@ -350,7 +350,7 @@ function handleAnswer(playerSaidVenomous) {
     correctBanner.classList.add('hidden');
     resultBanner.textContent = 'Oops! Try again';
     resultBanner.classList.add('wrong');
-    truthHint.textContent = `This species is actually ${currentSnake.isVenomous ? 'Venomous ⚠️' : 'Non-Venomous ✅'}.`;
+    truthHint.textContent = `This species is actually ${currentSnake.isVenomous ? 'Venomous ⚠️' : 'Non-Venomous '}.`;
     truthHint.classList.remove('section-hidden');
     btnReveal.classList.remove('section-hidden');
   }
